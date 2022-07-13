@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #3ad2c3 !important;
+}
+@media screen and (max-width: 991px) {
+  .imghero {
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    justify-content: center;
+  }
+  .kartu {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .gowa button {
+    height: 8vw !important;
+    width: 20vw !important;
+  }
+  .gowa button a {
+    font-size: 2vw !important;
+  }
+  .gowa button svg {
+    width: 4vw;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .cont {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.cont {
+  display: flex;
+}
+.kartu {
+  display: flex;
+}
+.gowa {
+  position: fixed;
+  border-radius: 30px;
+  right: 40px;
+  cursor: pointer;
+  z-index: 100000;
+}
+.imghero {
+  width: 100%;
+}
+.gowa button {
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  height: 55px;
+  width: 200px;
+  border: 0;
+  border-radius: 30px;
+  background-color: #4dc247;
+}
+.gowa svg {
+  width: 40px;
+}
+.gowa button a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+}
+.gowa.active {
+  bottom: 50px;
+  visibility: visible;
+  opacity: 1;
+}
+.main-holder {
+  position: relative;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.homebg {
+  position: absolute;
+  padding: 20em 0px 0px 0px;
+  content: "";
+  width: 100%;
+  height: 85%;
+  background-image: url("img/homebg.JPG");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: -1;
+}
+::selection {
+  color: aquamarine;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #29968b;
+}
+::-webkit-scrollbar-thumb {
+  background-color: aquamarine;
+}
+@media screen and (min-width: 1300px) {
+  .col .text {
+    font-size: 50px !important;
+  }
+}
+.col .text {
+  font-size: 4vw;
+}
+.navbar ul li {
+  padding: 0px 0.5vw 0px 0.5vw;
+}
+.navbar {
+  background-color: #fff;
+}
+.nav-link {
+  font-size: 1.2rem !important;
+  color: #3ad2c3 !important;
+}
